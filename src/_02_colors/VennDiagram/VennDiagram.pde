@@ -1,1 +1,16 @@
 size(600,600);
+ textSize(10);
+fill(225,0,0,100);
+ellipse(200,200,300,300); 
+fill(0,255,18,100);
+ellipse(350,200,300,300);
+fill(0,189,255,100);
+ellipse(275,400,300,300);
+fill(0,0,0);
+text("SMART",100,200);
+text("TALL",250,400);
+text("ATHLETIC",350,200);
+text("GG",270,300);
+text("BETTER THAN YOU",250,200);
+text("COOL",150,320);
+text("AMAZING",310,300);
