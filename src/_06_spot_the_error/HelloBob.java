@@ -9,12 +9,12 @@ public static void main(String[] args) {
 	// BUT it's not working. If you don't believe me, try running it.
 	// Change one line of code to fix this program.
 	
-	String name = JOptionPane.showInputDialog("What is your name?");
+	String name = JOptionPa  n e.showInputDialog("What is your name?");
 	
-	if (name == "Bob") {
+	if (name.equals("Bob") ) {
 		JOptionPane.showMessageDialog(null, "Hello Bob");
 	} else {
-		JOptionPane.showMessageDialog(null, "You're not Bob!!!");
+		JOptionPane.showMessageDialog(null, "Your not Bob");
 	}
 }
 }
